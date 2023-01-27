@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rook-testflight"
+version = "0.1.0"
+description = ""
+authors = ["Sean McAllister <sean.mcallister@dynatrace.com>"]
+readme = "README.md"
+packages = [{include = "rook_testflight"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.5"
+rook = "^0.1.193"
+python-dotenv = "^0.21.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
